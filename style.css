@@ -1,0 +1,32 @@
+
+nav{
+    margin-bottom: 5rem !important;
+}
+
+nav ul a{
+
+    color: black !important;
+    font-weight: 500;
+    font-size: large;
+    margin-left: 5em !important;
+}
+
+
+footer{
+    background-color: rgb(204, 197, 197);
+    display: flex;
+    flex-direction: column;
+}
+
+footer .container{
+    display: flex;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
