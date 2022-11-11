@@ -1,19 +1,21 @@
 
 nav{
     margin-bottom: 5rem !important;
-}
+    
+} 
 
 nav ul a{
 
     color: black !important;
     font-weight: 500;
     font-size: large;
-    margin-left: 5em !important;
+    margin-right: 3em !important;
+   
 }
 
 
 footer{
-    background-color: rgb(204, 197, 197);
+    background-color: rgb(182, 155, 155);
     display: flex;
     flex-direction: column;
 }
@@ -21,12 +23,12 @@ footer{
 footer .container{
     display: flex;
 }
+
 #header {
-	background: #333;
+	background: rgb(161, 17, 17);
 	color: white;
 	height: 80px;
-	
-	width: 90%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
 	left: 0; /* Posicionamos la cabecera al lado izquierdo */
 	top: 0; /* Posicionamos la cabecera pegada arriba */
 	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
@@ -36,6 +38,6 @@ footer .container{
 
 @media only screen and (max-width: 600px) {
     body {
-      background-color: lightblue;
+      background-color: rgb(139, 26, 105);
     }
   }
